@@ -9,105 +9,139 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/main.css" />
-    <script src="https://kit.fontawesome.com/f590a0f405.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <script
+      src="https://kit.fontawesome.com/f590a0f405.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Bitcoin dashbored</title>
-  <main>
-    <section>
-      <header>
-          <div class="logo">
-            <i class="fa-brands fa-centercode icon-style"></i>
-            <span>tradix</span>
+  </head>
+  <body>
+    <aside>
+      <div>
+        <i class="fa-solid fa-microchip"></i>
+        <i class="fa-solid fa-right-left"></i>
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-gear"></i>
+      </div>
+    </aside>
+    <header>
+      <div class="row">
+        <div class="col">
+          <i class="fa-brands fa-square-tumblr"></i>
+          <a>Tradix</a>
+        </div>
+        <div class="col">
+          <div>
+            <button type="button">
+              0.0025 <i class="fa-solid fa-bitcoin-sign"></i>
+            </button>
+            <button type="button">219.63 <span>USD</span></button>
           </div>
-          <nav>
-          <div >
-            <button>0.0025<i class="fa-solid fa-bitcoin-sign"></i></button>
-            <button>219.63 USD</button>
+          <div>
+            <i class="fa-solid fa-circle-user"></i>
+            <span>Toms Blieft</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <h3 id="title">Welcome back, <span>UserName</span></h3>
+    <main>
+      <div class="row">
+        <section>
+          <div>
+            <button type="button">Buy</button>
+            <button type="button">Sell</button>
+          </div>
+          <div>
+            <label for="currency">Currency</label>
             <div>
-            <i class="fa-solid fa-circle-user icon-style"></i>
-            <span>abdulrazzak</span>
-            <i class="fa-solid fa-caret-down"></i>
+              <select id="currency" name="currency">
+                <option value="bitcoin">Bitcoin</option>
+                <option value="usst">Usst</option>
+              </select>
+              <span class="block-span">125.00 USD</span>
+            </div>
+            <label for="payment">Payment Method</label>
+            <div>
+              <select id="payment" name="payment">
+                <option value="bitcoin">Bitcoin</option>
+                <option value="usst">Usst</option>
+              </select>
+              <span class="block-span">125.00 USD</span>
+            </div>
+            <label for="amount">Enter Your Amount</label>
+            <div>
+              <span class="block-span" id="amount" name="amount"
+                >0.0214 BTC</span
+              >
+              <span class="block-span">125.00 USD</span>
+            </div>
+            <div>
+              <span id="month-span">Monthly limit</span>
+              <span id="remaning-span">$49750 remaning</span>
+            </div>
+            <button type="button">Exchange now</button>
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+                quis sunt delectus corporis sapiente quas.
+              </p>
+            </div>
           </div>
+        </section>
+        <section>
+          <div class="box-info">
+            <div class="avatar">
+              <img src="./images/man.png" alt="avatar" />
+            </div>
+            <div class="info">
+              <h4>Buyer</h4>
+              <h6>Eman</h6>
+              <a href="#">hello@example.com</a>
+            </div>
+            <div class="info">
+              <h4>Seller</h4>
+              <h6>Tom</h6>
+              <a href="#">hello@example.com</a>
+            </div>
+            <div class="avatar">
+              <img src="./images/woman.png" alt="avatar" />
+            </div>
           </div>
+          <div>
+            <div class="boxes">
+              <span>You are seeling</span>
+              <span>0.00254 BTC</span>
+            </div>
+            <div class="boxes">
+              <span>Payment method</span>
+              <span>BAB *************524</span>
+            </div>
+            <div class="boxes">
+              <span>Exchange rate</span>
+              <span>0.00212455 BTC</span>
+            </div>
+            <div class="boxes">
+              <span>Fee</span>
+              <span>$28.00 USD</span>
+            </div>
+            <div class="boxes">
+              <span>Total</span>
+              <span>$854.00 USD</span>
+            </div>
+            <div class="boxes">
+              <span>Vat</span>
+              <span>$25.00 USD</span>
+            </div>
+            <div class="boxes">
+              <span>Sub Total</span>
+              <span>$1232.00 USD</span>
+            </div>
           </div>
-        </nav>
-      </header>
-      <hr>
-    </section>
-    <section>
-      <aside>
-        <ul>
-          <li><i class="fa-solid fa-meteor"></i></li>
-          <li><i class="fa-solid fa-arrow-right-arrow-left"></i></li>
-          <li><i class="fa-solid fa-user"></i></li>
-          <li><i class="fa-solid fa-gear"></i></li>
-        </ul>
-      </aside>
-    </section>
- <section class="left-area">
-      <h4>welcome back,</h4>
-        <button>buy</button>
-        <button>sell</button>
-     <form method="POST">
-        <label for="currency">currency</label>
-        <div>
-             <select id="currency" name="currency" class="input-style ">
-               <option value="bitcoin" selected>Bitcoin</option>
-               <option value="liheruom">Liheruom</option>
-               <option value="dogcoin" >Dogcoin</option>
-             </select>
-             <span class="span-style">125.00 USD</span>
-        </div>
-        <label for="payment-method">payment method</label>
-        <div>
-             <select id="payment-method" name="payment-method" class="input-style">
-               <option value="bitcoin" selected>Bitcoin</option>
-               <option value="liheruom">USD</option>
-               <option value="dogcoin" >EURO</option>
-             </select>
-             <span class="span-style">125.00 USD</span>
-        </div>
-        <label for="amount">enter your amount</label>
-        <div>
-          <input type="text" placeholder="0.0214 BTC" disabled class="input-style">
-          <span class="span-style">125.00 USD</span>
-        </div>
-       <div class="blance">
-        <span>monthly limit</span>
-        <span>$4679 remaning</span>
+        </section>
       </div>
-        <div>
-          <input type="submit" value="Exchange now">
-        </div>
-      </form>
-      <div>
-         <p>Note: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum cum debitis harum laudantium</p>
-      </div> 
-    </section>
-    <section class="right-area">
-      <div>
-      <div>
-        <img src="./images/face1.jpg" alt="user1">
-        <h4 class="lighter">Buyer</h4>
-        <h4 class="lighter">Eman</h5>
-        <a class="lighter" href="">hello@example.com</a>
-      </div>
-      <div>
-        <img src="./images/face2.jpg" alt="user2">
-        <h4 class="lighter">Seller</h4>
-        <h4  class="lighter">Abdulrazzak</h4>
-        <a class="lighter" href="">abdulrzakalsssouki@gmail.com</a>
-      </div>
-    </div>
-      <div>
-        <div class="input-style-2">you are selling <span> 0.00254 BTC</span></div>
-        <div class="input-style-2">payment method <span>ATS central bank *********5234</span></div>
-        <div class="input-style-2">exchange rate <span> 0.00212455</span></div>
-        <div class="input-style-2">fee <span>$28.00 USD</span></div>
-        <div class="input-style-2">total <span>$1000</span> </div>
-        <div class="input-style-2">vat <span>$35.00 </span></div>
-        <div class="input-style-2">sub total <span>$1232.00 USD</span></div>
-      </div>
-    </section>
-  </main>
+    </main>
   </body>
 </html>
